@@ -19,7 +19,7 @@ import {
 } from 'iconoir-react';
 import { personsImgs } from '../../../utils/images';
 
-const Sidebar = () => {
+const MySideBar = () => {
     const [activeLinkIdx] = useState(1);
     const [sidebarClass, setSidebarClass] = useState("");
     const { isSidebarOpen } = useContext(SidebarContext);
@@ -108,4 +108,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar;
+export default MySideBar;
