@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { navigationLinks } from "../../../data/data"; // Make sure to adjust the path
-import "./Sidebar.css";
+import './MySideBar.css'
 import { useContext } from 'react';
 import { SidebarContext } from "../../../context/sidebarContext";
 import {
