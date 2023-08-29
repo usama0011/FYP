@@ -1,12 +1,12 @@
 import "../admin/Admin.css"
-import Sidebar from './layout/Sidebar/Sidebar';
 import Content from './layout/Content/Content';
+import Sidebar from "./layout/Sidebar/Sidebar";
 
 function AdminPage() {
   return (
     <>
       <div className='app'>
-        <Sidebar />
+        <Sidebar/>
         <Content />
       </div>
     </>
